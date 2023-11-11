@@ -1,0 +1,243 @@
+/* 중앙정렬 */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 양옆정렬 */
+.between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* magrin */
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+
+.section {
+    width: 1280px;
+    margin: auto;
+    padding: 60px 190px 0;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+}
+
+.section.title {
+    height: 649px;
+    background-image: url(../img/bg2.png);
+}
+
+.title .star {
+    width: 185px;
+    display: flex;
+    justify-content: start;
+    margin: 104px auto 33px;
+}
+
+.title .star img {
+    display: none;
+    margin: 0 10px;
+}
+
+.title .txtwrite {
+    width: 100%;
+    padding-right: 225px;
+    font-weight: bold;
+}
+
+
+.circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-color: #e5de69;
+    position: relative;
+    left: 455px;
+    top: -60px;
+    z-index: -1;
+    margin-bottom: -25px;
+}
+
+
+/* section1 */
+.section.one {
+    height: 805px;
+    background-color: #0b9a6c;
+}
+
+.section_num {
+    z-index: 100;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section_box {
+    width: 100%;
+    height: 442px;
+    background-color: #e6f7f1;
+    border: 2px solid #00573b;
+}
+
+.section_box {
+    padding: 0 60px;
+    font-size: 20px;
+    box-shadow: #048157 7px 7px
+}
+
+.section_box i {
+    font-size: 40px;
+    margin-bottom: 115px;
+}
+
+.section_box .arrow p {
+    font-style: italic;
+    color: #e6fbb8;
+    background-color: #0b9a6c;
+    width: 100px;
+    height: 36px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    font-family: 'GmarketSansMedium'
+}
+
+.section_box .arrow p::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -17.9px;
+    border-top: 18px solid transparent;
+    /* 오른쪽 면을 가장 긴 변으로 설정 */
+    border-bottom: 18px solid transparent;
+    /* 오른쪽 면을 가장 긴 변으로 설정 */
+    border-left: 18px solid #0b9a6c;
+    /* 삼각형의 색상 및 크기 조절 */
+    z-index: -1;
+}
+
+
+.section_box div p {
+    font-family: GmarketSansBold;
+    margin-bottom: 0;
+}
+
+.section_box div span {
+    font-family: GmarketSansBold;
+    border-bottom: 1px solid #0a986a;
+    color: #0a986a;
+    cursor: pointer;
+}
+
+.section_box div span:hover {
+    color: #095239;
+}
+
+.one button {
+    width: 225px;
+    height: 54px;
+    border-radius: 27px;
+    font-size: 20px;
+    background-color: #023828;
+    color: #fff;
+    margin-top: 25px;
+    border: none;
+}
+
+.one button img {
+    margin-right: 12px;
+}
+
+
+/* section2 */
+.section.two {
+    height: 757px;
+    background-color: #fff;
+    position: relative;
+}
+
+.two h2 {
+    font-size: 50px;
+}
+
+.two p {
+    font-size: 23px;
+    color : #002719;
+    margin: 0;
+    position: relative;
+}
+
+.two p img {
+    position: absolute;
+    left: 292px;
+    top: 27px;
+}
+
+.two .search_box {
+    width: 513px;
+    height: 78px;
+    border: 3px dashed #17bb86;
+    padding: 9px 12px;
+    margin: 0 auto 100px;
+}
+
+.two .search_box input {
+    width: 404px;
+    height: 58px;
+    border: 2px solid #000;
+    margin-right: 5px;
+    padding: 16px;
+    font-size: 20px;
+}
+
+.two .search_box button {
+    width: 80px;
+    height: 58px;
+    font-size: 20px;
+    background-color: #023828;
+    color: #fff;
+    border: none;
+}
+
+.two .text {
+    width: 556px;
+    height: 119px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* section3 */
+.section.three {
+    height: 697px;
+    background-color: #d3f4e9;
+}
+
+.three h1 {
+    font-size: 50px;
+}
+
+.three h1 span {
+    color: #009c66;
+}
+
+.three p {
+    font-size: 25px;
+    color: #03291c;
+}
